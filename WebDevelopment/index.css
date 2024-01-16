@@ -1,0 +1,17 @@
+.h1 {
+    color: grey;
+    text-align: center;
+    margin-top: 20rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.div1{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+}
