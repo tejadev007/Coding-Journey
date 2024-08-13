@@ -5,7 +5,7 @@ public class BankAccountPractice {
 	private double balance;
 	
 	public BankAccountPractice(String accountNumber, double initialBalance) {
-		this.accountnumber = accountNumber;
+		this.accountNumber = accountNumber;
 		this.balance = initialBalance;
 	}
 	
@@ -19,7 +19,13 @@ public class BankAccountPractice {
 	
 	public void deposit(double amount) {
 		if(amount > 0) {
-			
+			balance += amount;
+		}
+	}
+	
+	public void withdraw(double amount) {
+		if(amount > 0 && amount <= balance) {
+			balance -= amount;
 		}
 	}
 }
