@@ -1,10 +1,10 @@
 package chatgprlearning;
 
-public class BankAccountPractice {
+public class BankAccount {
 	private String accountNumber;
 	private double balance;
 	
-	public BankAccountPractice(String accountNumber, double initialBalance) {
+	public BankAccount(String accountNumber, double initialBalance) {
 		this.accountNumber = accountNumber;
 		this.balance = initialBalance;
 		
@@ -32,10 +32,4 @@ public class BankAccountPractice {
 }
 
 
-public class BankAccountPractice {
-	 public static void main(String[] args) {
-		BankAccount account = new BankAccount("176787",2000);
-		
-	}
-}
 

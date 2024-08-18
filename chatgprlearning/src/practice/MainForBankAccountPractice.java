@@ -2,7 +2,7 @@ package practice;
 
 public class MainForBankAccountPractice {
 	public static void main(String[] args) {
-		BankAccountPractice BAP= new BankAccountPractice("20029", 200034);
+		BankAccount BAP= new BankAccount("20029", 200034);
 		
 		System.out.println("Account number is "+BAP.getAccountNumber());
 		System.out.println("Account Balance is $ "+BAP.getBalance() );
